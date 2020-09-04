@@ -1,4 +1,4 @@
-// XX - Created UnMuteButton
+// mute-unmute-XX - Created UnMuteButton
 import React from 'react';
 
 import { translate } from '../../../base/i18n';

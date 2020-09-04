@@ -1,4 +1,4 @@
-// beyaz: created UnMuteRemoteParticipantDialog component
+// mute-unmute-XX - created UnMuteRemoteParticipantDialog component
 
 import React from 'react';
 

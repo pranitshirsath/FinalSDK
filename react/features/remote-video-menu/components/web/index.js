@@ -9,11 +9,16 @@ export {
     default as KickRemoteParticipantDialog
 } from './KickRemoteParticipantDialog';
 export { default as MuteButton } from './MuteButton';
+// mute-unmute-XX - Export UnMuteButton Component
+export { default as UnMuteButton } from './UnMuteButton';
 export { default as MuteEveryoneElseButton } from './MuteEveryoneElseButton';
 export { default as MuteEveryoneDialog } from './MuteEveryoneDialog';
 export {
     default as MuteRemoteParticipantDialog
 } from './MuteRemoteParticipantDialog';
+
+// mute-unmute-XX - Export UnMuteRemoteParticipantDialog
+export { default as UnMuteRemoteParticipantDialog } from './UnMuteRemoteParticipantDialog';
 export { default as PrivateMessageMenuButton } from './PrivateMessageMenuButton';
 export {
     REMOTE_CONTROL_MENU_STATES,

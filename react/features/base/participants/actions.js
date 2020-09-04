@@ -8,6 +8,8 @@ import {
     GRANT_MODERATOR,
     KICK_PARTICIPANT,
     MUTE_REMOTE_PARTICIPANT,
+    // mute-unmute-XX
+    UNMUTE_REMOTE_PARTICIPANT,
     PARTICIPANT_ID_CHANGED,
     PARTICIPANT_JOINED,
     PARTICIPANT_KICKED,
@@ -197,6 +199,14 @@ export function localParticipantRoleChanged(role) {
 export function muteRemoteParticipant(id) {
     return {
         type: MUTE_REMOTE_PARTICIPANT,
+        id
+    };
+}
+
+// mute-unmute-XX - added unMuteRemoteParticipant method but WIP
+export function unMuteRemoteParticipant(id) {
+    return {
+        type: UNMUTE_REMOTE_PARTICIPANT,
         id
     };
 }

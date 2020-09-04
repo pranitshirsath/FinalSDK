@@ -1,4 +1,4 @@
-// XX - created AbstractUnMuteButton component
+// mute-unmute-XX - created AbstractUnMuteButton component
 
 import {
     createRemoteVideoMenuButtonEvent,

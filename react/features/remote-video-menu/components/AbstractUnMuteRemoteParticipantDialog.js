@@ -1,4 +1,4 @@
-// XX - created AbstractMuteRemoteParticipantDialog Component
+// mute-unmute-XX - created AbstractMuteRemoteParticipantDialog Component
 
 import { Component } from 'react';
 

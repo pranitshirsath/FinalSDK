@@ -244,7 +244,8 @@
          "muteParticipantBody": "You won't be able to unmute them, but they can unmute themselves at any time.",
          "muteParticipantButton": "Mute",
          "muteParticipantDialog": "Are you sure you want to mute this participant? You won't be able to unmute them, but they can unmute themselves at any time.",
-         "muteParticipantTitle": "Mute this participant?", */
+         "muteParticipantTitle": "Mute this participant?",
+         */
         "muteParticipantBody": "You can unmute the participant whenever you want.",
         "muteParticipantButton": "Mute",
         "muteParticipantDialog": "Are you sure you want to mute this participant?",

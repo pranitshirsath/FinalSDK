@@ -54,7 +54,6 @@ export default class AbstractUnMuteButton extends AbstractButton<Props, *> {
      * @returns {void}
      */
     _handleClick() {
-        console.log('AbstractUnMuteButton handle click')
         const { dispatch, participantID } = this.props;
 
         sendAnalytics(createRemoteVideoMenuButtonEvent(
@@ -63,7 +62,6 @@ export default class AbstractUnMuteButton extends AbstractButton<Props, *> {
                 'participant_id': participantID
             }));
 
-        console.log('call dialog')
         dispatch(openDialog(UnMuteRemoteParticipantDialog, { participantID }));
     }
 

@@ -112,7 +112,6 @@ MiddlewareRegistry.register(store => next => action => {
 
     // mute-unmute-XX Created new case (UNMUTE_REMOTE_PARTICIPANT).
     case UNMUTE_REMOTE_PARTICIPANT: {
-        console.error('BEYAZ - jitsi-meet - participants/middleware.js - UNMUTE_REMOTE_PARTICIPANT')
         const { conference } = store.getState()['features/base/conference'];
 
         conference.unMuteParticipant(action.id);

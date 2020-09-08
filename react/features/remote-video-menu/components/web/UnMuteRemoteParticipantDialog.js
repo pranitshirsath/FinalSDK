@@ -24,7 +24,7 @@ class UnMuteRemoteParticipantDialog extends AbstractUnMuteRemoteParticipantDialo
     render() {
         return (
             <Dialog
-                okKey = 'Sesini Aç'
+                okKey = 'Sesini Açma'
                 onSubmit = { this._onSubmit }
                 titleKey = 'Katılımcının sesini açmak ister misiniz?'
                 width = 'small'>

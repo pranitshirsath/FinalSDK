@@ -24,12 +24,12 @@ class UnMuteRemoteParticipantDialog extends AbstractUnMuteRemoteParticipantDialo
     render() {
         return (
             <Dialog
-                okKey = 'Sesini Açma'
+                okKey = 'dialog.unMuteParticipantButton'
                 onSubmit = { this._onSubmit }
-                titleKey = 'Katılımcının sesini açmak ister misiniz?'
+                titleKey = 'dialog.unMuteParticipantTitle'
                 width = 'small'>
                 <div>
-                    { this.props.t('Bu katılımcının sesini açmak ister misiniz') }
+                    { this.props.t('dialog.unMuteParticipantBody') }
                 </div>
             </Dialog>
         );

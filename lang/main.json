@@ -247,7 +247,7 @@
         "unMuteParticipantBody": "You can mute the participant whenever you want",
         "unMuteParticipantButton": "Unmute",
         "unMuteParticipantDialog": "Are you sure you want to unmute this participant?",
-        "unMutearticipantTitle": "Unmute this participant?",
+        "unMuteParticipantTitle": "Unmute this participant?",
         "Ok": "OK",
         "passwordLabel": "The meeting has been locked by a participant. Please enter the $t(lockRoomPassword) to join.",
         "passwordNotSupported": "Setting a meeting $t(lockRoomPassword) is not supported.",
